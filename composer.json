@@ -3,7 +3,7 @@
     "description": "A php application for checking secondary school student result online.",
     "type": "project",
     "require": {
-        "vlucas/phpdotenv": "*"
+        "vlucas/phpdotenv": "^5.6"
     },
     "autoload": {
         "psr-4": {
