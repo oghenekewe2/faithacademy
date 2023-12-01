@@ -1,0 +1,21 @@
+{
+    "name": "jite/faithacademy",
+    "description": "A php application for checking secondary school student result online.",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "src/Framework",
+            "App\\": "src/App"
+        },
+        "files": [
+            "src/App/config/Routes.php",
+            "src/App/config/Middleware.php"
+        ]
+    },
+    "scripts": {
+        "faithacademy": "php cli.php"
+    }
+}
